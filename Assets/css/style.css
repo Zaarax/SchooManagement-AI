@@ -1,0 +1,157 @@
+body {
+    background: #f9f9f9;
+}
+
+.navh {
+    padding-top: 10px;
+    height: 50px;
+    background: #fff;
+    color: #aaa;
+
+    font-weight: bold;
+}
+
+.iconsize {
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+.cardh {
+    height: 130px;
+
+    background: #fff;
+    border-radius: 37px;
+    padding-top: 12px;
+    color: #888888;
+}
+
+
+.threecol {
+    height: 300px;
+    text-align: center;
+    background: #fff;
+    margin: 13px;
+    padding: 6px;
+    color: #888888;
+    padding-top: 20px;
+}
+
+.taskdiv {
+    height: 70px;
+    margin: 10px;
+    background: #fff;
+    padding-top: 10px;
+    color: #888888;
+}
+
+.sidenav {
+    padding: 0px;
+    height: 900px;
+
+}
+
+.sidenav li {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+    height: 80px;
+    border-bottom: 1px solid #000;
+
+
+}
+
+.detailnav {
+    display: none;
+}
+
+.trans {
+    transition: width 2s, height 4s;
+}
+
+.card_four {
+    background: #fff;
+    /* box-shadow: 4px 9px 1px 0px #aaa; */
+    color: #888888;
+    box-shadow: 3px 3px #aaa;
+
+}
+
+.sidediv {
+    background: #ECECEC;
+
+
+}
+
+.profiledropdown {
+
+    position: absolute;
+    background: #ECECEC;
+    right: 15px;
+    top: 27px;
+    z-index: 100;
+    padding: 23px;
+    list-style: none;
+}
+
+.profiledropdown li {
+    padding: 5px;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+    .pname {
+        display: none;
+    }
+
+    .ppic {
+        top: -22px;
+        position: relative;
+        right: 5px;
+    }
+
+    .trans {
+        display: none;
+    }
+
+    .divfortext {
+        width: 60%;
+    }
+
+    .divforicon {
+        width: 40%;
+    }
+
+    .addcol {
+        width: 50%;
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 1030px) and (min-width: 600px) {
+    .pname {
+        display: none;
+    }
+
+    .ppic {
+        top: -22px;
+        position: relative;
+        right: 5px;
+    }
+
+    .trans {
+        display: none;
+    }
+
+    .divfortext {
+        width: 60%;
+    }
+
+    .divforicon {
+        width: 40%;
+    }
+
+    .addcol {
+        width: 50%;
+        margin: 10px 0px;
+    }
+}
