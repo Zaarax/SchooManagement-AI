@@ -3,6 +3,7 @@
 <?php
 
 require_once "./include/head.php";
+require_once "./include/init.php";  
 ?>
 <body>
     <div class="container-fluid">
@@ -12,7 +13,19 @@ require_once "./include/head.php";
         <div class="row">
             <?php
                 require_once "./include/sidebar.php";
-                require_once "./include/Dashboard.php";
+                
+                if (Input::exists('get')) {
+                    # code...
+                    if (Input::check("display") && Input::get('display') == "Dashboard") {
+                      # code...
+                      require "screens/Dashboard.php";
+                    }
+                    if (Input::check("display") && Input::get('display') == "stdReg") {
+                        # code...
+                        require "screens/stdReg.php";
+                      }
+                    
+                  }
                 
             ?>
         </div>

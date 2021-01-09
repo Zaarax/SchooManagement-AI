@@ -1,12 +1,12 @@
 body {
-    background: #f9f9f9;
+    background: #17a2b81a;
 }
 
 .navh {
     padding-top: 10px;
     height: 50px;
-    background: #fff;
-    color: #aaa;
+    background: #007bffa8;
+    color: #f9f9f9;
 
     font-weight: bold;
 }
@@ -24,24 +24,27 @@ body {
     padding-top: 12px;
     color: #888888;
 }
-
+.cardh a{
+    color:#5ca4fd;
+}
 
 .threecol {
     height: 300px;
     text-align: center;
     background: #fff;
+    font-weight: bold;
     margin: 13px;
     padding: 6px;
-    color: #888888;
+    color: #5ca4fd;
     padding-top: 20px;
 }
 
 .taskdiv {
     height: 70px;
     margin: 10px;
-    background: #fff;
+    background: #5ca4fd;
     padding-top: 10px;
-    color: #888888;
+    color: #f9f9f9;
 }
 
 .sidenav {
@@ -69,15 +72,16 @@ body {
 }
 
 .card_four {
-    background: #fff;
+    background: #5ca4fd;
     /* box-shadow: 4px 9px 1px 0px #aaa; */
-    color: #888888;
+    color: #f9f9f9;
     box-shadow: 3px 3px #aaa;
 
 }
 
 .sidediv {
-    background: #ECECEC;
+    background: #007bff6e;
+    color: #f9f9f9;
 
 
 }

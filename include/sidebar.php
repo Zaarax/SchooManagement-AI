@@ -9,7 +9,7 @@
                         <span class="detailnav">Employee</span>
                     </li>
                     <li>
-                        <a href="#" style="color: #000;">
+                        <a href="#" style="color: #f9f9f9;">
                             <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                             <span class="detailnav">Student</span>
                         </a>
@@ -23,7 +23,7 @@
                         <span class="detailnav">Academic</span>
                     </li>
                     <li>
-                        <a href="#" style="color: #000;">
+                        <a href="#" style="color: #f9f9f9;">
                             <i class="fa fa-area-chart" aria-hidden="true"></i>
                             <span class="detailnav">Classes</span>
                         </a>

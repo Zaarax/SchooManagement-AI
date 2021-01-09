@@ -60,7 +60,7 @@
                 <!-- four boxes colume ends -->
                 <div class="row">
                     <div class="col-lg-9">
-                        <div class="text-center" style="color: #aaa;">
+                        <div class="text-center" style="color: #5ca4fd;">
                             <p>Todays Schedule</p>
                             <div class="row taskmaindiv">
                                 <div class="col-lg-3">
